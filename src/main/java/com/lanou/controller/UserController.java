@@ -22,5 +22,11 @@ public class UserController {
 		model.addAttribute("users", users);
 		return "userlist";
 	}
+
+	@RequestMapping(value = "login")
+	public String login(){
+		System.out.println("登录");
+		return "";
+	}
 	
 }
