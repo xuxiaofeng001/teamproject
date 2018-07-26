@@ -28,5 +28,10 @@ public class UserController {
 		System.out.println("登录");
 		return "";
 	}
-	
+
+	@RequestMapping(value = "register")
+	public String register(){
+		System.out.println("注册");
+		return "";
+	}
 }
